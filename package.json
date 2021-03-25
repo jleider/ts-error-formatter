@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Syntax highlighter for TypeScript error messages",
   "main": "src/index.ts",
+  "typings": "src/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "clean": "rimraf ./dist",
