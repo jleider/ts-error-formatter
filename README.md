@@ -5,6 +5,9 @@
 ![NPM](https://img.shields.io/npm/l/ts-error-formatter)
 ![npm](https://img.shields.io/npm/v/ts-error-formatter)
 
+![image](https://user-images.githubusercontent.com/38108/112499058-7e937500-8d5d-11eb-8cd3-ff1df3a45bbe.png)
+
+
 ```
 npm install --save-dev ts-error-formatter
 ```
@@ -17,4 +20,3 @@ There are two exports: `errorFormatter` and `forkTsCheckerFormatter`.
 * `forkTsCheckerFormatter: (options?: BabelCodeFrameOptions | undefined) => Formatter;`.
 
 To use the `forkTsCheckerFormatter` simply use it with the custom formatter option in your `fork-ts-checker-webpack-plugin`'s config file.
-
