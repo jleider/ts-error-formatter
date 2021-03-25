@@ -1,8 +1,8 @@
 {
   "name": "ts-error-formatter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Syntax highlighter for TypeScript error messages",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
