@@ -12,7 +12,7 @@ const typeComparison2 = (ss: string, p1: string, p2: string) =>
     .replace(`'${p2}'`, `'${expected(p2)}'`);
 
 const highlights: Array<[message: string | RegExp, highlightFn: (substring: string, ...args: string[]) => string]> = [
-  [/.+ '(.+)' .+ '(.+)'.*\./, typeComparison2],
+  [/.+ '(.+)' .+ '(.+)'.*/, typeComparison2],
   [/.+ '(.+)' .+\./, typeComparison1],
 ];
 

@@ -18,7 +18,7 @@ exports[`errorFormatter should format types 2`] = `
                   Type '[91m[91mPageMeta<unknown>[39m[91m[39m' is not assignable to type '[32m{ readonly description: () => Option<string>; readonly renderEquality: (next: PageMeta<{}>, current: PageMeta<{}>) => boolean; readonly dataMeta: Option<DataMetaBase<string>>; readonly route: Match<{}>; }[39m'.
                     The types of '[91mroute.parser[39m' are incompatible between these types.
                       Type '[91m[91mParser<unknown>[39m[91m[39m' is not assignable to type '[32mParser<{}>[39m'.
-                        Type '[91m[91munknown[39m[91m[39m' is not assignable to type '[32m{}[39m'.ts(2322)"
+                        Type '[91m[91munknown[39m[91m[39m' is not assignable to type '[32m{}[39m'."
 `;
 
 exports[`errorFormatter should format types 3`] = `
@@ -33,3 +33,5 @@ exports[`errorFormatter should format types 3`] = `
             Type '[91m[91mOption<number>[39m[91m[39m' is not assignable to type '[32mnumber[39m'.
               Type '[91m[91mNone[39m[91m[39m' is not assignable to type '[32mnumber[39m'."
 `;
+
+exports[`errorFormatter should format types 4`] = `"Type '[91m{ curr: string; }[39m' is missing the following properties from type '[32mColorContent[39m': type, val"`;
