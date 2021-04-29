@@ -15,6 +15,7 @@ export const errors: string[] = [
                     The types of 'route.parser' are incompatible between these types.
                       Type 'Parser<unknown>' is not assignable to type 'Parser<{}>'.
                         Type 'unknown' is not assignable to type '{}'.`,
+
   `Type '{ id: number; email: string; firstName: string; lastName: string; phoneNumber: Option<never>; phoneExtension: Option<never>; company: Option<never>; title: Option<never>; linkedinUrl: Option<never>; twitterUrl: Option<never>; facebookUrl: Option<never>; primaryClientId: number; subscribed: false; personaId: Option<never>; }' is not assignable to type '{ id: number; email: string; firstName: string; lastName: string; phoneNumber: Option<string>; phoneExtension: Option<string>; company: Option<string>; title: Option<string>; linkedinUrl: Option<string>; twitterUrl: Option<string>; facebookUrl: Option<string>; primaryClientId: number; activeCampaignId: Option<string>; personaId: Option<number>; }'.
     Object literal may only specify known properties, and 'subscribed' does not exist in type '{ id: number; email: string; firstName: string; lastName: string; phoneNumber: Option<string>; phoneExtension: Option<string>; company: Option<string>; title: Option<string>; linkedinUrl: Option<string>; twitterUrl: Option<string>; facebookUrl: Option<string>; primaryClientId: number; activeCampaignId: Option<string>; personaId: Option<number>; }'.
 
@@ -27,4 +28,6 @@ export const errors: string[] = [
               Type 'None' is not assignable to type 'number'.`,
 
   `Type '{ curr: string; }' is missing the following properties from type 'ColorContent': type, val`,
+
+  `The type 'readonly [Element, Element]' is 'readonly' and cannot be assigned to the mutable type '[left: ReactElement<any, string | JSXElementConstructor<any>>, right: ReactElement<any, string | JSXElementConstructor<any>>]'.`
 ];

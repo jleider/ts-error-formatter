@@ -35,3 +35,5 @@ exports[`errorFormatter should format types 3`] = `
 `;
 
 exports[`errorFormatter should format types 4`] = `"Type '[91m{ curr: string; }[39m' is missing the following properties from type '[32mColorContent[39m': type, val"`;
+
+exports[`errorFormatter should format types 5`] = `"The type '[91mreadonly [Element, Element][39m' is '[91m[91m[91mreadonly[39m[91m[91m[39m[91m[39m' and cannot be assigned to the mutable type '[32m[32m[left: ReactElement<any, string | JSXElementConstructor<any>>, right: ReactElement<any, string | JSXElementConstructor<any>>][39m[32m[39m'."`;
